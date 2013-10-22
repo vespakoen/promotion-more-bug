@@ -4,6 +4,8 @@ class F < ProMotion::Screen
   def will_appear
     super
 
+    p "F's navigation_controller: #{self.navigation_controller}"
+
     @view_setup ||= begin
       @button = UIButton.new
 

@@ -1,12 +1,21 @@
+GIT
+  remote: https://github.com/clearsightstudio/ProMotion.git
+  revision: 8b4db1cd59c667c1948536a249983f400ffa617d
+  branch: feature/command_line_tools
+  specs:
+    ProMotion (1.0.4)
+      methadone
+
 GEM
   remote: https://rubygems.org/
   specs:
-    ProMotion (1.0.4)
+    methadone (1.3.0)
+      bundler
     rake (10.1.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  ProMotion
+  ProMotion!
   rake
